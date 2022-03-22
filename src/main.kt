@@ -17,7 +17,7 @@ fun myInvoke() {
 }
 //Write a function that takes in 2 parameters, name and age and returns a String with this structure
 // “Hi, my name is x and I am y years old.” Where x and y are
-// the provided name and age respectively. (3 points)
+// the provided name and age respectively. (3 pts)
 
 fun myParemeter(x:String, y:Int) {
     println("Hi, my name is"+" "+x+" "+"and I am"+" "+y+" "+"years old.")  // Kotlin Strings are concatenated using the + operator
@@ -28,14 +28,14 @@ fun myFun(){
     var s= "Lucy"
     println(s.length)
     println(s.uppercase())
-    println(s.capitalize())                  // to put the first character in capital letter
+    println(s.capitalize())                  // to put in the first character in capital letter
     // using the inbuilt function
 
 }
 
 //Write a function that takes in a name and prints out
 // “That’s me!” when your name is passed to it, otherwise it prints out
-// “I don’t know who that is” (3 points)
+// “I don’t know who that is” (3 pts)
 fun myName(){
     var person = "Mercy"
     var person2 = "Dallen"
